@@ -1,0 +1,78 @@
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.btn-green {
+  background-color: #618985;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+body {
+  background-color: #96bbbb;
+  font-family: 'Lora', serif;
+  color: #f2e3bc;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+h1 {
+  color: #618985;
+  font-size: 50px;
+  line-height: 40px;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #c19875;
+}
+
+a:hover {
+  color: #414535;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
